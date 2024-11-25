@@ -1,0 +1,14 @@
+.view-profile {
+  font-family: Lato;
+
+  .profile-field {
+    margin: 24px 0;
+  }
+
+  .last-update {
+    color: #222222;
+    font-size: 12px;
+    font-weight: 700;
+    margin: 24px 0;
+  }
+}

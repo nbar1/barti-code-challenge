@@ -1,0 +1,21 @@
+.featured-characters {
+  background-color: #054553;
+  padding: 40px;
+
+  .featured-characters-title {
+    color: #fff;
+    font-family: Lato;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43.2px;
+    text-align: center;
+  }
+
+  .featured-characters-grid {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(auto-fill, minmax(248px, 1fr));
+    justify-content: center;
+    margin: 40px;
+  }
+}

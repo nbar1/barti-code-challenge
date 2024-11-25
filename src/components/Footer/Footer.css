@@ -1,0 +1,12 @@
+footer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 43px 0;
+
+  > div {
+    font-family: Lato;
+    font-size: 11px;
+  }
+}
