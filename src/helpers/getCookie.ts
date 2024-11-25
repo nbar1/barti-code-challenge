@@ -1,5 +1,3 @@
-'use client';
-
 export const getCookie = (name: string) => {
   const value = `; ${document.cookie}`;
   const parts = value.split(`; ${name}=`);

@@ -6,8 +6,6 @@ const searchForCharacter = async (
   page: number = 1
 ): Promise<{ pageData: PageData; characters: Character[] }> => {
   // add error handling
-  const url = `https://api.disneyapi.dev/character?name=${query}`;
-  console.log(url);
   const response = await fetch(`https://api.disneyapi.dev/character?name=${query}`);
   const data = await response.json();
   return { pageData: { page, ...data.info }, characters: data.data };
